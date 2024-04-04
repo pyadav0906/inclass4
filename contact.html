@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="=device-width, initial-scale=1.0">
+    <title>InClassTask4</title>
+  </head>
+  <body>
+    <header class="structural">
+      <nav class="structural">
+        <ul>
+          <li><a href="InClassTask4.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>InClassTask4</h1>
+    </header>
+    <main>
+     <h2>Contact</h2>
+     <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required autofocus>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <fieldset>
+          <legend>What section of PROG1245 are you in?</legend>
+          <div>
+            <input type="radio" id="4" name="sec" value="4" required>
+            <label for="4">Section 4</label>
+          </div>
+          <div>
+            <input type="radio" id="5" name="sec" value="5" required>
+            <label for="5">Section 5</label>
+          </div>
+          <div>
+            <input type="radio" id="8" name="sec" value="8" required>
+            <label for="8">Section 8</label>
+          </div>
+        </fieldset>
+        <div>
+          <label for="help">What do you need help with?</label>
+          <select id="help" name="help" required>
+            <option value="" selected disabled hidden>Select option</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Both">Both (HTML & CSS)</option>
+          </select>
+        </div>
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" id="human" name="human" value="true" required>
+          <label for="human">I am a human</label>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </main>
+    <aside>
+      <h2>External Links</h2>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
+    </aside>
+    <footer class="structural">
+      <p>&copy; Pruthvi Yadav, pyadav0906@conestogac.on.ca</p>
+    </footer>
+  </body>
+</html>

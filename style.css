@@ -1,0 +1,72 @@
+h1 {
+    color: red;
+    font-size: large;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    border-color: cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+  }
+  
+  form {
+    border: 5px dashed #ccc;
+    padding: 5px;
+  }
+  
+  main,
+  aside {
+    height: auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  select,
+  option {
+    width: 50%;
+    display: block;
+    height: 2em;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+  }
+  
+  select,
+  option,
+  label,
+  legend,
+  input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  
+  textarea {
+    width: 50%;
+    display: block;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
